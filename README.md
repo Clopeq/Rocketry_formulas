@@ -1,1 +1,2 @@
-# pip instal git+https://github.com/Clopeq/Rocketry_formulas.git
+# pip install git+https://github.com/Clopeq/Rocketry_formulas.git
+
