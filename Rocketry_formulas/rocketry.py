@@ -137,7 +137,7 @@ def calculate_impulse(thrust: list, time: list):
 
    impulse = 0.0
 
-   for i in len(1, thrust):
+   for i in range(1, len(thrust)):
       impulse += 0.5*(thrust[i]+thrust[i-1]) * (time[i]-time[i-1])
 
    return impulse
