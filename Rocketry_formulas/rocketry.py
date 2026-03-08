@@ -362,7 +362,7 @@ def calculate_velocity_exhaust(k: float, Rs: float, temperature_combustion: floa
    """
 
    gamma1 = 2*k/(k-1)
-   gamma2 = (k+1)/k
+   gamma2 = (k-1)/k
    velocity_exhaust = np.sqrt(Rs*temperature_combustion*gamma1*(1-(pressure_exit/pressure_chamber)**gamma2))
    return velocity_exhaust
 
